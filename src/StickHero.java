@@ -25,4 +25,51 @@ public class StickHero implements serializable{
 
     }
 
+    public Stick getPole() {
+        return pole;
+    }
+
+    public void setPole(Stick pole) {
+        this.pole = pole;
+    }
+
+    public boolean isFlipped() {
+        return isFlipped;
+    }
+
+    public void setFlipped(boolean flipped) {
+        isFlipped = flipped;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+    public int getCherries() {
+        return cherries;
+    }
+
+    public void setCherries(int cherries) {
+        this.cherries = cherries;
+    }
+
+    public int getPowerUp() {
+        return PowerUp;
+    }
+
+    public void setPowerUp(int powerUp) {
+        PowerUp = powerUp;
+    }
+
+    public int getPositionX() {
+        return positionX;
+    }
+
+    public void setPositionX(int positionX) {
+        this.positionX = positionX;
+    }
 }
